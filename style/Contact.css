@@ -1,0 +1,336 @@
+
+body{
+    background-color: rgba(128, 128, 128, 0.296);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 0, 0, 0.582);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+.btn{
+    margin-right: 15%;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+
+
+}
+a:hover{
+    color: rgba(70, 70, 70, 0.745);
+}
+.btn a:hover{
+    color: white;
+}
+
+body{
+    /* background-image: url(../imagenew/1.png); */
+    background-size: cover;
+    height: 40vh;
+}
+.main-cover-full,.main-background{
+    margin: 0;
+    padding: 0;
+}
+.main-background{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    background-image: url(../Full_image/4.png);
+    background-color:#ff5e2dca;
+    height: 100vh;
+}
+.main-cover-full{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    background-color:#ff5e2d33;
+    height: 100vh;
+}
+body,.main-background{
+    margin: 0;
+}
+/* .image img{
+    width: 60%;
+    height: 90%;
+    object-fit: cover;
+} */
+ iframe{
+    width: 70%;
+    height: 45vh;
+ }
+.image{
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image h5{
+    font-size: 20px;
+}
+.background{
+    margin-left: 10%;
+    color: white;
+}
+.background h1{
+    font-size: 42px;
+}
+.main-form{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#text-1{
+    width: 423px;
+    padding: 17px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.585);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+}
+#message{
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0.585);
+    width: 80%;
+    padding: 17px;
+    outline: none;
+}
+.submit{
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-top: 20px;
+    width: 83.5%;
+    padding: 17px;
+}
+.submit:hover{
+    background-color: rgb(82, 78, 78);
+}
+.main-form-two{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    color:#ff5e2dca ;
+}
+.main-cover h1{
+    margin-left: 15%;
+    color: #ff5e2dca;
+}
+.main-cover p{
+    margin-left: 15%;
+    font-weight: bold;
+    color: gray;
+}
+.form-content{
+    display: flex;
+    gap: 30px;
+}
+.main-background-container {
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    height: 67vh;
+}
+
+.cover-code {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Trebuchet MS, sans-serif;
+    height: 80vh;
+    color: white;
+    background-color: #ff5e2dde;
+}
+
+.btn-2 {
+    margin-right: 15%;
+    border: none;
+    background-color: rgba(47, 47, 47, 0.951);
+    padding: 15px 60px 15px 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.line-height {
+    width: 2px;
+    height: 25vh;
+    margin-left: 10%;
+    background-color: #Fff;
+}
+
+.car h1 {
+    font-size: 40px;
+}
+
+.btn-2:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.main-footer {
+    margin: 0;
+    background-image: url(../imagenew/footer.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.line-bottom {
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgba(136, 136, 136, 0.829);
+}
+.card-image img {
+    width: 160px;
+    margin-right: 60%;
+    object-fit: cover;
+    margin-left: 15%;
+}
+.card-image {
+    margin-top: 5%;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.icons {
+    margin-left: 4%;
+    font-size: 35px;
+    transition: transform 0.3s;
+}
+
+.icon {
+    font-size: 35px;
+    transition: transform 0.3s;
+}
+
+.icons:hover {
+    transform: scale(0.7);
+}
+
+.icon:hover {
+    transform: scale(0.7);
+}
+
+.main-contact p {
+    margin-top: 9%;
+    margin-right: 10%;
+}
+
+.main-icons {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.main-code-content{
+    display: flex;
+    color: grey;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+.code-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1{
+    color:#ff5e2dde ;
+    font-size: 30px;
+}
+.card h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.line{
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.29);
+    height:1px;
+    margin-left: 35%;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+h5 a{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h5 a:hover{
+    color: blue;
+    text-decoration: underline;
+}

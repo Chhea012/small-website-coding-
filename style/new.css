@@ -1,0 +1,257 @@
+body {
+    background-color: rgba(128, 128, 128, 0.296);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 0, 0, 0.582);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    margin-right: 15%;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+
+
+}
+
+a:hover {
+    color: rgba(70, 70, 70, 0.745);
+}
+
+.btn a:hover {
+    color: white;
+}
+
+.color a {
+    color: black;
+}
+body,.main-footer{
+    margin: 0;
+    padding: 0;
+}
+.class-btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+.line{
+    width: 10%;
+    height:1px;
+    background: #ffffff;
+}
+.main-footer {
+    margin-top: 10%;
+    background-image: url(../imagenew/footer.png);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+}
+
+.main-icons {
+    display: flex;
+    color: blanchedalmond;
+    justify-content: start;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.icon1 {
+    transition: transform 0.3s;
+    font-size: 40px;
+}
+
+.icon2 {
+    transition: transform 0.3s;
+    font-size: 40px;
+}
+
+.icon1:hover {
+    transform: scale(0.7);
+}
+
+.icon2:hover {
+    transform: scale(0.7);
+}
+
+.card-image img {
+    width: 160px;
+    margin-right: 60%;
+    object-fit: cover;
+    margin-left: 15%;
+}
+
+.line-bottom {
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgba(136, 136, 136, 0.829);
+}
+
+.main-contact p {
+    margin-top: 9%;
+    margin-right: 10%;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.main-container h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255, 68, 0, 0.672);
+
+}
+.main-container p{
+    color: rgb(123, 122, 122);
+}
+.main-image-title img{
+    width: 35%;
+    height: 51vh;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.main-image-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    gap: 20px;
+}
+.main-title .p1{
+    color: gray;
+    font-weight: lighter;
+
+}
+.main-title .p4{
+    color: rgba(44, 44, 44, 0.733);
+
+}
+.main-title .p5{
+    font-size: 17px;
+    color: rgba(255, 68, 0, 0.672);
+    font-weight: bold;
+
+}
+.main-date{
+    display: flex;
+    gap: 10px;
+}
+.class-btn-1{
+    background-color: rgb(213, 73, 21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: transform 0.3s ease;
+}
+.class-btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.class-btn-1:hover{
+    transform: scale(0.9);
+}
+.class-btn-2{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.class-btn-2:hover{
+    transform: scale(0.9);
+}
+.main-content-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+    border-radius: 30px;
+    background-color: rgba(255, 68, 0, 0.286);
+
+}
+.main-content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Full_image/4.png);
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 20%;
+    border-radius: 30px;
+
+}
+.main-content-bg h1{
+    color: white;
+}
+.main-content-bg p{
+    color: white;
+    font-weight: bold;
+}

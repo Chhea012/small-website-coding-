@@ -1,0 +1,334 @@
+
+body{
+    background-color: rgba(128, 128, 128, 0.296);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 0, 0, 0.582);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+.btn{
+    margin-right: 15%;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+
+
+}
+a:hover{
+    /* text-decoration: underline; */
+    color: rgba(70, 70, 70, 0.745);
+}
+.btn a:hover{
+    color: white;
+}
+.color a{
+    color: black;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.main-card{
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #FF5E2D 60%, #1F242E00 43%);
+    height: 99vh;
+    padding: 3px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%, 100% );
+
+}
+body,.main-card{
+    margin: 0;
+}
+.btn-1:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.btn-1{
+    margin-right: 15%;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+.main-card h1 {
+    margin-top: 15%;
+    margin-left: 15%;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+.main-card p {
+    margin-left: 15%;
+    color: white;
+    font-weight: bold;
+}
+.main-card button {
+    margin-left: 15%;
+    color: white;
+}
+.image-1 img{
+    margin-top: 5%;
+    width: 100px;
+    object-fit: cover;
+}
+.image-2 img{
+    margin-top: 5%;
+    width: 100px;
+    object-fit: cover;
+}
+.main-image{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.image-1{
+    position: absolute;
+    text-align: center;
+    margin-right: 40%;
+    margin-top: 10%;
+    width: 500px;
+    height: 300px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/shop.jpg);
+    border-radius: 7px;
+    transition: transform 0.3s;
+}
+.image-2{
+    margin-top: 10%;
+    margin-left: 37%;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../image/network.jpg);
+    border-radius: 7px;
+    transition: transform 0.3s;
+}
+.hero{
+    transition: transform 0.3s;
+}
+.hero:hover{
+    transform: translateY(-10px);
+}
+.title{
+    transition: transform 0.3s;
+}
+.title:hover{
+    transform: translateY(-10px);
+}
+.image-1 img:hover{
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+.image-2 img:hover{
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+.content{
+    text-align: center;
+    margin-top: 30%;
+}
+.cover{
+    color:#FF6E42;
+    font-size: 45px;
+}
+
+.no{
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+}
+.body{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    padding: 10px;
+    transition: transform 0.3s;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.179);
+    border-radius: 5px;
+}
+.body:hover{
+    transition: transform 0.3s;
+    background-color:#FF6E42 ;
+    color: white;
+    
+}
+/* h3{
+    color: #FF6E42;
+} */
+h3:hover{
+    color: #ffffff;
+}
+.body {
+    color: rgb(82, 81, 81);
+}
+h4{
+    margin-bottom: 20%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 45px;
+}
+.content-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 35px;
+    column-gap: 20px;
+}
+.main-background-container{
+    /* background-image: url(../image/security.png); */
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px ;
+    margin-bottom: 0;
+    height: 67vh;
+}
+.cover-code{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Trebuchet MS, sans-serif;
+    height:80vh;
+    color: white;
+    background-color: #ff5e2dde;
+}
+.btn-2 {
+    margin-right: 15%;
+    border: none;
+    background-color: rgba(47, 47, 47, 0.951);
+    padding: 15px 60px 15px 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+.line-height{
+    width: 2px;
+    height: 25vh;
+    margin-left: 10%;
+    background-color:#Fff;
+}
+.card h1{
+    font-size: 40px;
+}
+.btn-2:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.main-footer{
+    margin: 0;
+    background-image: url(../imagenew/footer.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.line-bottom{
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgba(136, 136, 136, 0.829);
+}
+.card-image img{
+    width: 160px;
+    margin-right: 60%;
+    object-fit: cover;
+}
+.card-image{
+    margin-top: 5%;
+}
+.main-contact{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.icons{
+    margin-left: 4%;
+    font-size: 35px;
+    transition: transform 0.3s;
+}
+.icon{
+    font-size: 35px;
+    transition: transform 0.3s;
+}
+.icons:hover{
+    transform: scale(0.7);
+}
+.icon:hover{
+    transform: scale(0.7);
+}
+.main-contact p{
+    margin-top: 9%;
+    margin-right:10%;
+}
+.main-icons{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.btn-1 a{
+    color: white;
+    text-decoration: none;
+}
